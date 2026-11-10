@@ -1,0 +1,56 @@
+# XcodeGen spec of DemoShop.xcodeproj. The generated project is committed, so the repository opens
+# in Xcode as is; after changing this file run `xcodegen` in the repository root.
+name: DemoShop
+
+options:
+  bundleIdPrefix: com.personaclick
+  deploymentTarget:
+    iOS: "12.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+
+settings:
+  base:
+    DEVELOPMENT_TEAM: Z49R96MV7D
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+
+packages:
+  PersonaClick:
+    url: https://github.com/PersonaClick/ios-sdk
+    from: "3.37.0"
+
+targets:
+  DemoShop:
+    type: application
+    platform: iOS
+    sources:
+      - path: DemoShop
+    dependencies:
+      - package: PersonaClick
+        product: PersonaClick
+    info:
+      path: DemoShop/Info.plist
+      properties:
+        CFBundleDisplayName: Shop iOS
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSRequiresIPhoneOS: true
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchStoryboardName: LaunchScreen
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.personaclick.demoshop.ios
+        PRODUCT_NAME: DemoShop
+        TARGETED_DEVICE_FAMILY: "1"
+    scheme: {}

@@ -1,0 +1,12 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Swift Package Manager (Package.resolved stays committed)
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store

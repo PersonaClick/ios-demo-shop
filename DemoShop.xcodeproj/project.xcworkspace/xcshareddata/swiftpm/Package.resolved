@@ -1,0 +1,15 @@
+{
+  "originHash" : "fb3757b06e03fc154a7f418f519c84609e32f3d9a8ee2ffbe90c3a69224e600b",
+  "pins" : [
+    {
+      "identity" : "ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PersonaClick/ios-sdk",
+      "state" : {
+        "revision" : "f58d485cc1c4807174fabb449cb6a3cfdd7ba581",
+        "version" : "3.37.0"
+      }
+    }
+  ],
+  "version" : 3
+}
