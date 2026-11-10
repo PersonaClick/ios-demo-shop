@@ -382,7 +382,7 @@
 			repositoryURL = "https://github.com/PersonaClick/ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.37.0;
+				minimumVersion = 3.37.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

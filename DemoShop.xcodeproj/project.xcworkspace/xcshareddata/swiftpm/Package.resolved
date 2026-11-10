@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/PersonaClick/ios-sdk",
       "state" : {
-        "revision" : "f58d485cc1c4807174fabb449cb6a3cfdd7ba581",
-        "version" : "3.37.0"
+        "revision" : "53d7543660c5d3c0aefec29700cebc90df9912c9",
+        "version" : "3.37.1"
       }
     }
   ],

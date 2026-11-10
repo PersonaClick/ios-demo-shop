@@ -6,7 +6,7 @@ page with recommendations, and search results. UIKit, no storyboards besides the
 
 The SDK comes from Swift Package Manager:
 [`https://github.com/PersonaClick/ios-sdk`](https://github.com/PersonaClick/ios-sdk), version
-3.37.0 or later, product `PersonaClick` (`import PersonaClick`).
+3.37.1 or later, product `PersonaClick` (`import PersonaClick`).
 
 There is no cart screen: "Add to cart" tracks the `cart` event and shows the kit's toast. Popups
 from the dashboard are shown by the SDK as it does by default. Push is not set up, so the SDK

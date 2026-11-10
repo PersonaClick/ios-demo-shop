@@ -20,7 +20,7 @@ settings:
 packages:
   PersonaClick:
     url: https://github.com/PersonaClick/ios-sdk
-    from: "3.37.0"
+    from: "3.37.1"
 
 targets:
   DemoShop:
